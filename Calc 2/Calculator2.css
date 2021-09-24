@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#triangle1 {
+    width: 800px;
+    height: 750px;
+    margin: -8px 0px 0px 0px;
+    background: url("Display.svg");
+    background-repeat:no-repeat;
+    position: fixed; right: -194px;
+    z-index: -5;
+}
+
+#triangle2 {
+    width: 250px;
+    height: 250px;
+    margin: -8px 0px 0px 0px;
+    background: url("Clear.svg");
+    background-repeat: no-repeat;
+    position: fixed; left: 600px;
+    z-index: -5;
+}
+
+#triangle3 {
+    width: 850px;
+    height: 700px;
+    margin: 0px 0px 0px -8px;
+    background: url("Equal.svg");
+    background-repeat:no-repeat;
+    position: fixed; bottom: -382px;
+    z-index: -5;
+}
+
+html {
+    padding: 0px;
+}
+
+#display {
+    float: right;
+    margin: 255px 0px 300px 0px;
+    width: 400px;
+    height: 120px;
+    background: none;
+    border: none;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.number {
+    margin: 0px;
+    border: none;
+    width: 120px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 700;
+    background: none;
+}
+
+.number:hover {
+    color: #BB2127;
+}
+
+.numberz {
+    margin: 0px 0px 0px 125px;
+    padding: 0px;
+    border: none;
+    width: 120px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 700;
+    background: none;
+}
+
+.numberz:hover {
+    color: #BB2127;
+}
+
+.operator {
+    margin: 0px;
+    border: none;
+    width: 120px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 700;
+    background: none;
+}
+
+.operator:hover {
+    color: #BB2127;
+}
+
+.operatore { 
+    margin: 200px 0px 0px 350px;
+    transform: rotate(-16deg);
+    border: none;
+    width: 130px;
+    height: 130px;
+    font-size: 130px;
+    font-weight: 700;
+    float: left;
+    background: none;
+    color: white;
+}
+
+.operatore:hover {
+    color: black;
+}
+.operatorc {
+    margin: 0px 0px 0px 165px;
+    position: fixed;
+    transform: rotate(-18deg);
+    border: none;
+    width: 130px;
+    height: 130px;
+    font-size: 130px;
+    font-weight: 700;
+    background: none;
+    color: white;
+}
+
+.operatorc:hover {
+    color: black;
+}
+

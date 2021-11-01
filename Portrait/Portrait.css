@@ -1,0 +1,626 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+    animation-name: body;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes body {
+    0% {
+    background-color: white;
+    }
+    
+    50% {
+    background-color: lightblue;
+    }
+    
+    100% {
+    background-color: white;
+    }
+}
+
+.head {
+    height: 324px;
+    width: 249px;
+    border-radius: 500px;
+    background-color:rgba(198,156,109,1.00);
+    margin: 260px 0px 0px 700px;
+    position: absolute;
+}
+
+.eye1 {
+    height: 20px;
+    width: 38px;
+    border-radius: 0 0 28px 28px;
+    background-color: white;
+    margin: 382px 0px 0px 760px;
+    position: absolute;
+}
+
+.eye2 {
+    height: 20px;
+    width: 38px;
+    border-radius: 0 0 28px 28px;
+    background-color: white;
+    margin: 382px 0px 0px 850px;
+    position: absolute;
+}
+
+.iris1 {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    margin: 378px 0px 0px 767px;
+    position: absolute;
+}
+
+.iris2 {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    margin: 378px 0px 0px 857px;
+    position: absolute;
+}
+
+.pupil1 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 389px 0px 0px 773px;
+    position: absolute;
+    
+    animation-name: pupil1;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pupil1 {
+    0% {
+    height: 12px;
+    width: 12px;
+    margin: 389px 0px 0px 773px;
+    }
+    
+    50% {
+    height: 14px;
+    width: 14px;
+    margin: 385px 0px 0px 772px;
+    }
+    
+    100% {
+    height: 12px;
+    width: 12px;
+    margin: 389px 0px 0px 773px;
+    }
+}
+
+.pupil2 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 389px 0px 0px 863px;
+    position: absolute;
+    
+    animation-name: pupil2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pupil2 {
+    0% {
+    height: 12px;
+    width: 12px;
+    margin: 389px 0px 0px 863px;
+    }
+    
+    50% {
+    height: 14px;
+    width: 14px;
+    margin: 385px 0px 0px 862px;
+    }
+    
+    100% {
+    height: 12px;
+    width: 12px;
+    margin: 389px 0px 0px 863px;
+    }
+}
+
+.lid1 {
+    height: 20px;
+    width: 38px;
+    border-radius: 28px 28px 0 0;
+    background-color:rgba(166,124,82,1.00);
+    margin: 362px 0px 0px 760px;
+    position: absolute;
+}
+
+.lid2 {
+    height: 20px;
+    width: 38px;
+    border-radius: 28px 28px 0 0;
+    background-color: rgba(166,124,82,1.00);
+    margin: 362px 0px 0px 850px;
+    position: absolute;
+}
+
+.waterline1 {
+    height: 4px;
+    width: 38px;
+    margin: 378px 0px 0px 760px;
+    background-color: black;
+    position: absolute;
+}
+
+.waterline2 {
+    height: 4px;
+    width: 38px;
+    margin: 378px 0px 0px 850px;
+    background-color: black;
+    position: absolute;
+}
+
+.wing1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1.9px 27px 1.9px 0;
+    border-color: transparent black transparent transparent;
+    margin: 376px 0px 0px 733.5px;
+    transform: rotate(10deg);
+    position: absolute;
+}
+
+.wing2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1.9px 0 1.9px 27px;
+    border-color: transparent transparent transparent black;
+    margin: 376px 0px 0px 887px;
+    transform: rotate(-10deg);
+    position: absolute;
+}
+
+.nose {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    box-shadow: 0px 4px 0px 0px black;
+    border-radius: 50%;
+    margin: 428px 0px 0px 814px;
+}
+
+.blush1 {
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 20%;
+    background-color: mediumvioletred;
+    margin: 428px 0px 0px 724px;
+    position: absolute;
+    
+    animation-name: blush1;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blush1 {
+    0% {
+    opacity: 0%;
+    }
+    
+    50% {
+    opacity: 20%;
+    }
+    
+    100% {
+    opacity: 0%;
+    }
+}
+
+.blush2 {
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 20%;
+    background-color: mediumvioletred;
+    margin: 428px 0px 0px 877px;
+    position: absolute;
+    
+    animation-name: blush2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blush2 {
+    0% {
+    opacity: 0%;
+    }
+    
+    50% {
+    opacity: 20%;
+    }
+    
+    100% {
+    opacity: 0%;
+    }
+}
+
+.lip2 {
+    height: 30px;
+    width: 90px;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: rgba(212,20,90,1.00);
+    margin: 505px 0px 0px 782px;
+    position: absolute;
+}
+
+.teeth {
+    height: 20px;
+    width: 90px;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: white;
+    margin: 505px 0px 0px 782px;
+    position: absolute;
+}
+
+.lip1 {
+    height: 12px;
+    width: 90px;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: rgba(212,20,90,1.00);
+    margin: 505px 0px 0px 782px;
+    z-index: 5;
+    position: absolute;
+    
+    animation-name: lip1;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes lip1 {
+    0% {
+    height: 12px;
+    }
+    
+    50% {
+    height: 7px;
+    }
+    
+    100% {
+    height: 12px;
+    }
+}
+
+
+
+.ear1 {
+    height: 15px;
+    width: 60px;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: rgba(166,124,82,1.00);
+    margin: 420px 0px 0px 662.5px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.ear2 {
+    height: 15px;
+    width: 60px;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: rgba(166,124,82,1.00);
+    margin: 420px 0px 0px 926px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.eyebrow1 {
+    border-bottom: 6px solid black;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 30px;
+    margin: 348px 0px 0px 719px;
+    position: absolute;
+    
+    animation-name: eyebrow1;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes eyebrow1 {
+    0% {
+    margin-top: 348px;
+    }
+ 
+    50% {
+    margin-top: 338px; 
+    }
+    
+    100% {
+    margin-top: 348px;
+    }
+}
+
+.eyebrow2 {
+    border-bottom: 6px solid black;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 30px;
+    margin: 348px 0px 0px 848px;
+    position: absolute;
+    transform: scaleX(-1);
+    
+    animation-name: eyebrow2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes eyebrow2 {
+    0% {
+    margin-top: 348px;
+    }
+    
+    50% {
+    margin-top: 338px; 
+    }
+ 
+    100% {
+    margin-top: 348px;
+    }
+}
+
+.base_hair {
+    height: 278px;
+    width: 275px;
+    border-radius: 42%;
+    box-shadow: 60px 0px 0px -20px black;
+    position: absolute;
+    margin: 296px 0px 0px 686px;
+    transform: rotate(-90deg)
+}
+
+.ovalhair {
+    height: 48px;
+    width: 138px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 296px 0px 0px 693px;
+    position: absolute;
+    transform: rotate(150deg); 
+}
+
+.ovalhair_shadow {
+    height: 48px;
+    width: 138px;
+    border-radius: 50%;
+    background-color: rgba(166,124,82,1.00);
+    margin: 304px 0px 0px 696px;
+    position: absolute;
+    transform: rotate(152deg);
+}
+
+.ponytail {
+    height: 70px;
+    width: 75px;
+    border-radius: 12px;
+    background-color: dodgerblue;
+    margin: 212px 0px 0px 785px;
+    position: absolute;
+    z-index: -1;
+}
+
+.hair1 {
+    width: 543px;
+    height: 183px;
+    position: absolute;
+    box-shadow: -15px 30px 0px 0px black;
+    margin: 385px 0px 0px 490px;
+    border-radius: 50%;
+    transform: rotate(105deg);
+    z-index: -2;
+    
+    animation-name: hair1;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hair1 {
+    0% {
+    transform: rotate(105deg);
+    }
+    
+    50% {
+    transform: rotate(108deg); 
+    }
+ 
+    100% {
+    transform: rotate(105deg);
+    }
+}
+
+.hair2 {
+    width: 553px;
+    height: 183px;
+    position: absolute;
+    box-shadow: -10px 30px 0px 0px black;
+    margin: 410px 0px 0px 504px;
+    border-radius: 50%;
+    transform: rotate(100deg);
+    z-index: -2;
+    
+    animation-name: hair2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hair2 {
+    0% {
+    transform: rotate(100deg);
+    }
+    
+    50% {
+    transform: rotate(103deg); 
+    }
+ 
+    100% {
+    transform: rotate(100deg);
+    }
+}
+
+
+.hair3 {
+    width: 543px;
+    height: 183px;
+    position: absolute;
+    box-shadow: -10px 30px 0px 0px black;
+    margin: 430px 0px 0px 522px;
+    border-radius: 50%;
+    transform: rotate(94deg);
+    z-index: -2;
+    
+    animation-name: hair3;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hair3 {
+    0% {
+    transform: rotate(94deg);
+    }
+    
+    50% {
+    transform: rotate(97deg); 
+    }
+ 
+    100% {
+    transform: rotate(94deg);
+    }
+}
+
+.hair4 {
+    width: 543px;
+    height: 183px;
+    position: absolute;
+    box-shadow: -10px 30px 0px 0px black;
+    margin: 460px 0px 0px 549px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    z-index: -2;
+    
+    animation-name: hair4;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hair4 {
+    0% {
+    transform: rotate(90deg);
+    }
+    
+    50% {
+    transform: rotate(93deg); 
+    }
+ 
+    100% {
+    transform: rotate(90deg);
+    }
+}
+
+.hair5 {
+    width: 523px;
+    height: 183px;
+    position: absolute;
+    box-shadow: -10px 30px 0px 0px black;
+    margin: 439px 0px 0px 569px;
+    border-radius: 50%;
+    transform: rotate(89deg);
+    z-index: -2;
+    
+    animation-name: hair5;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hair5 {
+    0% {
+    transform: rotate(89deg);
+    }
+    
+    50% {
+    transform: rotate(92deg); 
+    }
+ 
+    100% {
+    transform: rotate(89deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

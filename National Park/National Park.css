@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 90vh;
+    background: url("National Parkz.jpg") no-repeat center;
+    background-size: contain;
+    
+}
+
+.card:hover {
+    background: url("National Park.gif") no-repeat center;
+    background-size: contain;
+}
+
+#preload {
+    background: url("National Parkz.jpg") no-repeat -9999px -9999px;
+    background-size: contain;
+    
+}

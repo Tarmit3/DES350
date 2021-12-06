@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    width: 1080px;
+    height: 1920px;
+    background-image: url("DESISNGNGN.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Josefin Sans;
+    font-size: 45px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+}
+
+.para1 {
+    font-family: Josefin Sans;
+    font-size: 25px;
+    line-height: 40px;
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 1000px;
+}
+.para2 {
+    font-family: Josefin Sans;
+    font-size: 25px;
+    line-height: 40px;
+    position: absolute;
+    top: 65%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 1000px;
+}
+
+.list_info {
+    font-family: Josefin Sans;
+    font-size: 30px;
+    position: absolute;
+    margin: 300px 10px 0px 70px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.sled {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 101%;
+    left: 5%;
+}
+
+.sled_dog {
+    background-image: url("sled-03.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 95%;
+    left: 6%;
+}
+
+.flightseeing {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 101%;
+    left: 43%;
+}
+
+.flightseeing_heli {
+    background-image: url("heckilopter-03.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+
+.mushing {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 101%;
+    left: 83%;
+}
+
+.mushing_dog {
+    background-image: url("mushing-03.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 90%;
+    left: 75%;
+}
+
+.fishing {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 151%;
+    left: 30%;
+}
+
+.fishing_fish {
+    background-image: url("fishy-03.svg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 138%;
+    left: 22%;
+}
+
+.cycling {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 151%;
+    left: 65%;
+}
+
+.cycling_bike {
+    background-image: url("bike-03.svg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 130%;
+    left: 58%;
+}
+
+.visit {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    padding: 10px 5px 10px 5px;
+    top: 230%;
+    left: 35%
+}
+
+.visits:link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px 10px 5px;
+    box-shadow: inset 0 0 0 0 darkgray;
+    transition: ease-out 0.3s;
+    
+}
+
+.visits:visited {
+    color: black;
+}
+
+.visits:hover {
+    box-shadow: inset 110px 0 0 0 darkgray;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.other {
+    font-family: Josefin Sans;
+    font-size: 50px; 
+    position: absolute;
+    top: 260%;
+    left: 35%
+}
+
+.park1 {
+    position: absolute;
+    top: 280%;
+    left: 18%;
+}
+
+.acadia {
+    width: 225px;
+    height: 320px;
+    margin-bottom: 50px;
+    border: 20px solid lightgray;
+}
+
+.park2 {
+    position: absolute;
+    top: 280%;
+    left: 44%
+}
+
+.shenandoah {
+    width: 225px;
+    height: 320px;
+    margin-bottom: 50px;
+    border: 20px solid lightgray;
+}
+
+.park3 {
+    position: absolute;
+    top: 280%;
+    left: 70%;
+    
+}
+
+.zion {
+    width: 225px;
+    height: 320px;
+    margin-bottom: 50px;
+    border: 20px solid lightgray;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
